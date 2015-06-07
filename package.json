@@ -1,0 +1,37 @@
+{
+  "name": "azure-ad-jwt",
+  "description": "An Azure Active Directory Token Validation component for node.js",
+  "version": "0.1.0",
+  "author": {
+    "name": "Dirk Eisenberg"
+  },
+  "main": "./lib/azure-ad-jwt.js",
+  "dependencies": {
+    "restler": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dei79/node-azure-ad-jwt.git"
+  },
+  "keywords": [
+    "azure",
+    "ad",
+    "aad",
+    "node"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dei79/node-azure-ad-jwt/issues"
+  },
+  "homepage": "https://github.com/dei79/node-azure-ad-jwt",
+  "maintainers": [
+    {
+      "name": "dei79",
+      "email": "dirk.eisenberg@gmail.com"
+    }
+  ]
+}
