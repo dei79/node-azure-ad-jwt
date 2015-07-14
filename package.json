@@ -1,12 +1,13 @@
 {
   "name": "azure-ad-jwt",
   "description": "An Azure Active Directory Token Validation component for node.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Dirk Eisenberg"
   },
   "main": "./lib/azure-ad-jwt.js",
   "dependencies": {
+    "jsonwebtoken": "^5.0.2",
     "restler": "*"
   },
   "devDependencies": {},
