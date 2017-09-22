@@ -7,7 +7,7 @@
   },
   "main": "./lib/azure-ad-jwt.js",
   "dependencies": {
-    "jsonwebtoken": "^5.0.2",
+    "jsonwebtoken": "^8.0.1",
     "restler": "*"
   },
   "devDependencies": {},
