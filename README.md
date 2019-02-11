@@ -1,7 +1,9 @@
 # azure-ad-jwt
 This component makes it super simple to validate a JWT token issued by the Azure Active Directory. Currently the version 
-is not usinge caching this means the certificates will be downloaded from Mirosoft with every verification request. 
+is caching the tenant public keys for an hour this means the certificates will be downloaded from Mirosoft with every verification request. 
 If you are using Azure AAD tokens in every request against your API additional caching would make sense. 
+
+Currently caching on a per tenant basis, and lasts 1 hour.
 
 ## Usage
 
